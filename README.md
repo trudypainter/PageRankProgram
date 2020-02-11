@@ -2,14 +2,15 @@
 
 This python program applies Google\'92s PageRank algorithm to predictions for the most reportable event (MRE) of a story. It includes two ways to visualize the story data and effectively organizes and analyzes results.\
 \
-##Instructions Before
+## Instructions Before
 \
 Before you run:
 1. Make sure pagerank is saved in the same directory as the glove files and \reddit annotated folder
 2. Download glove files
+- 
 3. BEST RUN IN JUPYTER NOTEBOOK\
 \
-##Functions
+## Functions
 \
 top3(index)
 - returns a list of the top3 predicted sentences using the PageRank algorithm\
@@ -49,7 +50,7 @@ EXAMPLE
 visualizeGraph(180)
 see results in example image in folder
 
-printInfo(180)\
+printInfo(180)
 - prints all of the information using above methods
 - in my program, this is used o create a csv of all stories\'92 information
 - expects the index of the story being examined\
@@ -57,7 +58,7 @@ EXAMPLE\
 printInfo(180)\
 180 | 1h7qys.44.story|  [0] |  [3, 4, 5]  | ◒◯◯◓◓◓
 
-get_pres_and_recall(results)\
+get_pres_and_recall(results)
 - will print out the precision and recall of the data
 - expects a data table - see how to define it in code before\
 EXAMPLE\
