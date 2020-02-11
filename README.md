@@ -1,10 +1,4 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;\f2\fnil\fcharset128 HiraginoSans-W3;
-\f3\froman\fcharset0 Times-Roman;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;}
-\margl1440\margr1440\vieww20660\viewh14520\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+# Readme
 
 \f0\fs24 \cf0 This python program applies Google\'92s PageRank algorithm to predictions for the most reportable event (MRE) of a story. It includes two ways to visualize the story data and effectively organizes and analyzes results.\
 \
@@ -67,7 +61,7 @@ visualizeGraph(180)\
 
 \f3 \cf2 \expnd0\expndtw0\kerning0
 {{\NeXTGraphic unknown.png \width3320 \height4620 \appleattachmentpadding0 \appleembedtype0 \appleaqc
-}¬}
+}Â¬}
 \f0 \cf0 \kerning1\expnd0\expndtw0 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 \cf0 \
