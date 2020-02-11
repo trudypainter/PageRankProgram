@@ -1,12 +1,15 @@
 # README
 
-This python program applies Google\'92s PageRank algorithm to predictions for the most reportable event (MRE) of a story. It includes two ways to visualize the story data and effectively organizes and analyzes results.
+This python program applies Google's PageRank algorithm to predictions for the most reportable event (MRE) of a story. It includes two ways to visualize the story data and effectively organizes and analyzes results.
 
 ## Instructions Before
 
 Before you run:
-1. Make sure pagerank is saved in the same directory as the glove files and \reddit annotated folder
-2. Download glove files
+1. Make sure pagerank is saved in the same directory as the glove files and \redditannotated folder
+2. Download glove files (https://www.kaggle.com/terenceliu4444/glove6b100dtxt#glove.6B.100d.txt)
+  - make sure to save file in same directory as pagerank program
+3. Download annotated reddit dataset from (http://www.cs.columbia.edu/~ouyangj/reddit-data/)
+  - rename folder as "redditannotated" and move union file to redditannotated folder
 3. BEST RUN IN JUPYTER NOTEBOOK
 
 ## Functions
@@ -51,7 +54,7 @@ see results in example image in folder
 
 printInfo(180)
 - prints all of the information using above methods
-- in my program, this is used o create a csv of all stories\'92 information
+- in my program, this is used o create a csv of all stories' information
 - expects the index of the story being examined\
 EXAMPLE\
 printInfo(180)\
