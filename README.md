@@ -21,22 +21,22 @@ top3(index)
 - in the example, the predicted MRE sentences are 4, 3, and 5\
 EXAMPLE:\
 top3(180)\
-[4, 3, 5]\
-\
+[4, 3, 5]
+
 checkIndex(storyid)
 - returns index of the story based on name of file from the annotated stories folder\
 EXAMPLE\
 checkIndex('vfxbo.45.story')\
-28\
-\
+28
+
 annotations(index)
 - returns a list of the ground truth annotated sentences
 - expects the index of the story being examined (like top3(index))
 - in the example, the ground truth sentence is 0\
 EXAMPLE\
 annotations(180)\
-[0]\
-\
+[0]
+
 linegraph(index)
 - returns a line graph (string) of the results
 - empty circles have neither a ground truth or predicted sentences. circles with top half filled have only predicted sentences. circles with bottom half filled have only ground truth sentences. completely filled circles have both.
