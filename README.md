@@ -2,6 +2,8 @@
 
 This python program applies Google's PageRank algorithm to predictions for the most reportable event (MRE) of a story. It includes two ways to visualize the story data and effectively organizes and analyzes results.
 
+![Flow chart of program](diagram.png)
+
 ## Instructions Before
 
 Before you run:
